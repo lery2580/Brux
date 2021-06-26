@@ -25,8 +25,13 @@ header {
     padding: 12;
     height: 64px;
     box-sizing:border-box;
+    transition: background-color 0.5s;
+    box-shadow: 0 0 10px rgba(0, 0,0, 0.5);
 }
 
+header.scrolled{
+    background-color: #fff;
+}
 header h1, header nav {
     flex: 1;
 }
